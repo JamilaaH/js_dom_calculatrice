@@ -1,0 +1,23 @@
+{
+  "name": "calculatrice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamilaaH/js_dom_calculatrice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamilaaH/js_dom_calculatrice/issues"
+  },
+  "homepage": "https://github.com/JamilaaH/js_dom_calculatrice#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}
