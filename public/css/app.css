@@ -9684,3 +9684,20 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+
+.boite {
+  width: 250px;
+  background-color: #0B7F8C;
+  border-radius: 4px;
+}
+
+.boite .btn {
+  margin: 5px;
+  padding: 5px;
+  height: 35px;
+  width: 35px;
+}
+
+.boite .egale {
+  width: 218px;
+}
