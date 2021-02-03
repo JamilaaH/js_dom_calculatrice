@@ -1,5 +1,7 @@
-import {chiffres,operateur,btnEgale,btnClear,champAffich,nb1,nb2,op} from "./operation.js"
-
+import {chiffres,operateur,btnEgale,btnClear,champAffich} from "./operation.js"
+let nb1
+let nb2
+let op
 chiffres.forEach(el =>{
     el.addEventListener("click", ()=> {
         champAffich.innerHTML += el.innerText
@@ -11,7 +13,6 @@ operateur.forEach(el =>{
         nb1 = nb2
         champAffich.innerHTML=""
         champAffich.innerHTML += el.innerText
-        // console.log(champAffich.innerHTML, champAffich.innerHTML.length);
         op = champAffich.innerHTML
 
 
