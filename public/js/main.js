@@ -2,6 +2,7 @@ import {chiffres,operateur,btnEgale,btnClear,champAffich} from "./operation.js"
 let nb1
 let nb2
 let op
+
 chiffres.forEach(el =>{
     el.addEventListener("click", ()=> {
         champAffich.innerHTML += el.innerText
@@ -23,7 +24,6 @@ operateur.forEach(el =>{
 btnClear.addEventListener('click', ()=> {
     champAffich.innerHTML=""
 })
-
 
 
 btnEgale.addEventListener('click', ()=> {
@@ -51,3 +51,8 @@ btnEgale.addEventListener('click', ()=> {
             break;
     }
 })
+
+chiffres.forEach(el => {
+    console.log(el);
+})
+
